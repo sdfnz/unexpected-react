@@ -1,0 +1,32 @@
+html, body {
+	margin: 0;
+	background-image: url(assets/bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.button-dis {
+	margin: 10px;
+	width: 125px;
+	height: 50px;
+	padding: 20px;
+	border: none;
+	box-shadow: 2px 2px 5px #454545;
+	color: #FFF;
+	text-shadow: 2px 2px 3px #454545;
+
+}
+
+.button-dis-h {
+	display: none;
+}
+
+.cool {
+	background: linear-gradient(to bottom, #05FFA1, #01CDFE);
+}
+
+.warm {
+	background: linear-gradient(to bottom, #EB6464, #454545);
+}
