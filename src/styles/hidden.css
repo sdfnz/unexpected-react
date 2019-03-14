@@ -1,13 +1,4 @@
-html, body {
-	margin: 0;
-	background-image: url(assets/bg.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-.button-dis {
+button {
 	margin: 10px;
 	width: 125px;
 	height: 50px;
@@ -16,11 +7,27 @@ html, body {
 	box-shadow: 2px 2px 5px #454545;
 	color: #FFF;
 	text-shadow: 2px 2px 3px #454545;
-
 }
 
-.button-dis-h {
-	display: none;
+button:focus {
+	outline: none;
+}
+
+.button-dis {
+	opacity: 0;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.button-fade {
+	animation: fadeIn 1s forwards;
 }
 
 .cool {

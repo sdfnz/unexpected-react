@@ -1,10 +1,10 @@
 import React from 'react';
 
-class DisappearButton extends React.Component {
+class FadeButton extends React.Component {
 	state = { effect: '' };
 
 	onItemClick = () => {
-		this.setState({ effect: "button-dis" });	
+		this.setState({ effect: "button-fade" });	
 	};
 
 	render() {
@@ -18,4 +18,4 @@ class DisappearButton extends React.Component {
 	}
 }
 
-export default DisappearButton;
+export default FadeButton;
