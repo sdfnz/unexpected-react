@@ -30,10 +30,34 @@ button:focus {
 	animation: fadeIn 1s forwards;
 }
 
+.button-move-right {
+	transform: translateX(145px);
+}
+
+.button-move-left {
+	transform: translateX(-145px);
+}
+
+.button-move-up {
+	transform: translateY(-60px);
+}
+
+.button-move-down {
+	transform: translateY(60px);
+}
+
+.button-move-return {
+	transform: none;
+}
+
 .cool {
 	background: linear-gradient(to bottom, #05FFA1, #01CDFE);
 }
 
 .warm {
 	background: linear-gradient(to bottom, #EB6464, #454545);
+}
+
+.blue {
+	background: #3340FF;
 }
