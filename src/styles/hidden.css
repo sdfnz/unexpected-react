@@ -1,3 +1,8 @@
+@font-face {
+	font-family: roboto;
+	src: url(Roboto-Medium.ttf);
+}
+
 button {
 	margin: 10px;
 	width: 125px;
@@ -6,7 +11,10 @@ button {
 	border: none;
 	box-shadow: 2px 2px 5px #454545;
 	color: #FFF;
-	text-shadow: 2px 2px 3px #454545;
+	font-family: roboto;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: center;
 }
 
 button:focus {
@@ -26,7 +34,7 @@ button:focus {
 	}
 }
 
-.button-fade {
+.fader {
 	animation: fadeIn 1s forwards;
 }
 
@@ -50,14 +58,37 @@ button:focus {
 	transform: none;
 }
 
+
+/* COLOR DEFINITIONS */
+
 .cool {
 	background: linear-gradient(to bottom, #05FFA1, #01CDFE);
 }
 
+.cool:hover {
+	background: linear-gradient(to bottom, #01CDFE, #05FFA1);
+}
+
 .warm {
-	background: linear-gradient(to bottom, #EB6464, #454545);
+	background: linear-gradient(to bottom, #EB6464, #FFC832);
+}
+
+.warm:hover {
+	background: linear-gradient(to bottom, #FFC832, #EB6464);
 }
 
 .blue {
 	background: #3340FF;
+}
+
+.blue:hover {
+	background: #4753FF;
+}
+
+.red {
+	background: #FF0000;
+}
+
+.red:hover {
+	background: #FF6666;
 }

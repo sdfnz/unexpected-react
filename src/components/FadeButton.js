@@ -4,7 +4,7 @@ class FadeButton extends React.Component {
 	state = { effect: '' };
 
 	onItemClick = () => {
-		this.setState({ effect: "button-fade" });	
+		this.setState({ effect: "fader" });	
 	};
 
 	render() {
