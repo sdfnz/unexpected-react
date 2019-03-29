@@ -7,3 +7,7 @@ html, body {
 	background-size: cover;
 }
 
+input {
+	margin: 20px;
+}
+

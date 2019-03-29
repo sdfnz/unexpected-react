@@ -4,7 +4,8 @@ import './styles/app.css';
 import DisappearButton from './components/DisappearButton';
 import FadeButton from './components/FadeButton';
 import MoveButton from './components/MoveButton';
-import DisTxtInput from './components/DisTxtInput';
+import SimpleInputFade from './components/SimpleInputFade';
+import CustomInputFade from './components/CustomInputFade';
 
 class App extends React.Component {
 	render() {
@@ -17,7 +18,9 @@ class App extends React.Component {
 				<MoveButton buttonName="UP" buttonColor="red" direction="up" />
 				<MoveButton buttonName="LEFT" buttonColor="blue" direction="left" />
 				<div>
-					<DisTxtInput name="name" />
+					<SimpleInputFade name="name" />
+					<CustomInputFade name="cooldude" hexColor="#B4DA55" />
+					<CustomInputFade name="cooldude" hexColor="#ff71ce" />
 				</div>
 			</div>
 		);
